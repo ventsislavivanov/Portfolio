@@ -1,0 +1,300 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.eot');
+    src: url('../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff') format('woff'),
+         url('../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#proxima_nova_altregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Proxima Nova Semibold';
+    src: url('../fonts/Mark Simonson - Proxima Nova Semibold-webfont.eot');
+    src: url('../fonts/Mark Simonson - Proxima Nova Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Mark Simonson - Proxima Nova Semibold-webfont.woff') format('woff'),
+         url('../fonts/Mark Simonson - Proxima Nova Semibold-webfont.ttf') format('truetype'),
+         url('../fonts/Mark Simonson - Proxima Nova Semibold-webfont.svg#proxima_nova_ltsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+	font-family: 'Proxima Nova';
+	font-size: 15px;
+	color: #000;
+}
+
+.wrapper {
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+header {
+	padding: 25px 85px;
+	background: #000;
+}
+header .logo {
+	float: left;
+}
+header nav {
+	float: left;
+	font-family: 'Proxima Nova Semibold';
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+header nav a {
+	display: inline-block;
+	padding: 23px 13px;
+}
+header ul {
+	float: right;
+}
+header ul li {
+	float: left;
+	font-family: 'Proxima Nova Semibold';
+    font-size: 13px
+}
+header ul li a {
+	display: inline-block;
+	padding: 23px 13px;
+}
+
+
+.bx-wrapper {
+	margin-bottom: 0;
+	border: none;
+}
+
+.slider-content {
+	position: absolute;
+	width: 495px;
+	height: 262px;
+}
+.first-slide {
+	top: 270px;
+	left: 385px;
+}
+
+.second-slide {
+	top: 262px;
+    left: 415px;
+}
+
+.slider-content h1 {
+	margin-bottom: 35px;
+	font-family: 'Proxima Nova Semibold';
+	font-size: 80px;
+    line-height: 85px;
+	text-transform: uppercase;
+}
+.slider-content a {
+	display: inline-block;
+	float: right;
+	padding: 21px 33px;
+	font-size: 14px;
+	font-weight: 900;
+	text-transform: uppercase;
+	background: #000;
+}
+
+.first-slide h1 {
+	color: #000;
+}
+
+.second-slide h1{
+	color: #fff;
+}
+
+h2 {
+	padding-bottom: 12px;
+	font-family: 'Proxima Nova Semibold';
+	font-size: 48px;
+    line-height: 50px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #000;
+}
+.divider {
+	margin-left: -20px;
+	padding: 10px 0;
+	height: 30px;
+	background: url("../css/images/cross.png") no-repeat center ;
+}
+.products {
+	padding: 160px 0 120px;
+}
+
+.products p {
+	padding: 15px 0;
+	text-align: center;
+	font-size: 14px;
+}
+
+.products p:last-of-type {
+	font-family: 'Proxima Nova Semibold';
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.company {
+	position: relative;
+	height: 954px;
+	background-image: url("../css/images/bg.jpg");
+	background-size: cover;
+	background-position: right;
+}
+
+.company:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    background: #000;
+    z-index: 1;
+}
+.shell {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.holder {
+	width: 605px;
+	padding: 250px 0 220px;
+	position: relative;
+    z-index: 2;
+}
+
+.holder h2 {
+	padding-bottom: 70px;
+	text-align: left;
+	color: #fff;
+}
+
+.holder p {
+	padding-bottom: 45px;
+	color: #fff;
+	line-height: 30px;
+}
+
+.features {
+	padding: 120px 0 105px;
+}
+
+.columns {
+	padding-top: 50px;
+}
+.col {
+	margin-right: 20px;
+	padding-bottom: 30px;
+	width: 220px;
+	float: left;
+}
+.features .col p {
+	font-family: 'Proxima Nova Semibold';
+	padding: 10px 0;
+	line-height: 30px;
+}
+.features .col a {
+	font-family: 'Proxima Nova Semibold';
+	color: #000;
+}
+
+footer {
+	background-color: #000;
+}
+
+footer h3 {
+ 	padding-bottom: 27px;
+ 	font-family: 'Proxima Nova Semibold';
+ 	font-size: 17px;
+ 	text-transform: uppercase;
+ 	color: #fff;t
+ }
+
+footer .col li {
+	padding-bottom: 12px;
+}
+
+footer .col li a{
+	color: #c9c9c9;
+}
+
+footer .socials {
+	padding: 15px 0;
+}
+
+footer .socials li{
+    margin-right: 24px;
+	float: left;
+	font-size: 31px;
+}
+footer .socials li:last-of-type {
+	margin-right: 0;
+}
+
+footer input {
+	border: none;
+}
+
+footer .newsletter {
+	padding-bottom: 15px;
+}
+
+footer input[type="text"] {
+	padding: 15px;
+	width: 140px;
+}
+footer input[type="submit"] {
+	padding: 14px;
+	font-family: 'Proxima Nova Semibold';
+	font-size: 14px;
+}
+
+footer:after,
+.columns:after,
+header:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+@media screen and (max-width: 1024px) {
+	.slider-content {
+		height: 217px;
+		top: 190px;
+		left: 250px;
+	}
+	.slider-content h1 {
+		font-size: 70px;
+		line-height: 71px;
+	}
+
+	.slider-content a {
+		padding: 15px 20px;
+		font-size: 12px;
+	}
+	.shell {
+		max-width: 880px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.shell {
+		max-width: 680px;
+	}
+}
